@@ -75,6 +75,8 @@
 #hero{
   text-align: center;
   background: url(./assets/hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero_content{
@@ -220,6 +222,41 @@
 #get_early_access p {
   color: #627382;
   margin-bottom: 24px;
+}
+
+footer{
+  background: #001931;
+  color: white;
+  justify-content: space-between;
+  padding: 120px 120px 30px 120px;
+  text-align: center;
+}
+
+.footer_container{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+footer p{
+  color: white;
+}
+
+.icon{
+  display: flex;
+  gap: 16px;
+}
+
+.social_icon p{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  color: white;
+  margin-bottom: 16px;
+}
+hr{
+  border: 1px solid #62738250;
+  margin-bottom: 30px;
 }
 
 

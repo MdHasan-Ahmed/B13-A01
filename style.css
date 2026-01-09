@@ -127,7 +127,7 @@
 }
 
 #notes {
-  padding: 60px 120px 120px;
+  padding: 60px 120px 0 120px;
   text-align: center;
 }
 
@@ -145,8 +145,6 @@
   display: flex;
   justify-content: space-between;
   gap: 24px;
-  margin-bottom: 120px;
-
 }
 
 .notes_card{
@@ -172,6 +170,35 @@
 
 .notes_card p{
   color: #627382;
+}
+
+.solution_conainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  padding: 120px;
+}
+
+.solution_info h2{
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.solution_info p{
+  color: #627382;
+  margin-bottom: 16px;
+  margin-bottom: 40px;
+}
+
+.solution_info .solution_list{
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 500;
+  color: #001931;
+  margin-bottom: 16px;
 }
 
 

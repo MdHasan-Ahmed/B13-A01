@@ -5,6 +5,7 @@
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
   font-size: 16px;
+  color: #001931;
 }
 
 /* common style */
@@ -74,7 +75,6 @@
 }
 
 .hero_content{
-  max-width: 1360px;
   padding: 115.5px 120px 179.5px;
   margin: 0 auto;
 }
@@ -85,12 +85,12 @@
   height: 35px;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 9.5px;
   padding: 12px 8px;
   background-color: white;
   border-radius: 30px;
   margin-bottom: 16px;
-
 }
 
 .early_access_frame p {
@@ -125,3 +125,53 @@
   gap: 16px;
   justify-content: center;
 }
+
+#notes {
+  padding: 60px 120px 120px;
+  text-align: center;
+}
+
+#notes h2{
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+#notes p{
+  color: #627382;
+  margin-bottom: 44px;
+}
+.notes_cardbox{
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 120px;
+
+}
+
+.notes_card{
+  max-width: 322px;
+  padding: 24px;
+  box-shadow:0 -10px 10px rgba(0, 0, 0, 0.10);
+  border-radius: 8px;
+}
+
+.notes_card img{
+  max-width: 60px;
+  padding: 14px;
+  border-radius: 50%;
+  background-color: #F95555;
+  margin-bottom: 16px;
+}
+
+.notes_card h3{
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.notes_card p{
+  color: #627382;
+}
+
+

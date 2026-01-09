@@ -1,0 +1,127 @@
+/* universal style  */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+}
+
+/* common style */
+.btn{
+  display: inline-flex;
+  background-color: #469165;
+  padding: 12.5px 16px;
+  border: none;
+  border-radius: 4px;
+  height: 44px;
+}
+
+.btn a{
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+}
+
+
+.btn2{
+  display: inline-flex;
+  background-color: #469165;
+  padding: 12.5px 16px;
+  border: none;
+  border-radius: 4px;
+  height: 52px;
+  align-items: center;
+}
+
+.btn2 a{
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+/* style  */
+
+#navigation {
+  padding: 16px 120px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo img {
+  max-width:139px ;
+}
+
+#navigation ul{
+  display: flex;
+  gap: 32px;
+}
+
+.menu li{
+  list-style: none;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+} 
+
+#hero{
+  text-align: center;
+  background: url(./assets/hero-bg.png);
+}
+
+.hero_content{
+  max-width: 1360px;
+  padding: 115.5px 120px 179.5px;
+  margin: 0 auto;
+}
+
+.early_access_frame{
+  margin: 0 auto;
+  max-width: 229px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  gap: 9.5px;
+  padding: 12px 8px;
+  background-color: white;
+  border-radius: 30px;
+  margin-bottom: 16px;
+
+}
+
+.early_access_frame p {
+  font-weight: 500;
+  color: #469165;
+}
+.circle_icon{
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #469165;
+  box-shadow: 0 0 0 3px #46916540, 0 0 0 5px #46916520;
+}
+
+.hero_content h2{
+  font-size: 72px;
+  color: white;
+  line-height: 84px;
+  margin-bottom: 16px;
+}
+
+
+.hero_discription {
+  font-size: 18px;
+  color: white;
+  line-height:30px;
+  margin-bottom: 32px;
+}
+
+.hero_buttonset{
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
